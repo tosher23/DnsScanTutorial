@@ -38,5 +38,4 @@ my $npe = Net::Pcap::Easy->new(
         close FFILE;
 },
 );
-
 1 while $npe->loop;
