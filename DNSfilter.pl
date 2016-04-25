@@ -37,4 +37,6 @@ my $npe = Net::Pcap::Easy->new(
         print FFILE "$ip->{src_ip} $domain $udp->{len}\n";
         close FFILE;
 },
+);
+
 1 while $npe->loop;
